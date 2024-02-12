@@ -36,21 +36,43 @@ Split and Merge RGB Image
 Split and merge HSV Image
 
 ##### Program:
-### Developed By:
-### Register Number: 
+```
+### Developed By: DEEPIKA S
+### Register Number: 212222230028
+```
+<table>
+  <tr>
+    <td width=50%>
 
 
-## Output:
+#### i) Read and display the image
+```Python
+    import cv2
+    image=cv2.imread('Deepika.jpg',1)
+    image=cv2.resize(image,(400,300))
+    cv2.imshow('Deepika',image)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+```
+  </td>
+  <td>
+    
+#### Output:
+![Deepika](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/beba183b-6b80-4254-a5ac-c0a9c0ed29be)
+</td>
+</tr>
 
-### i) Read and display the image
 
-<br>
-<br>
+
+<tr>
+  <td width=50%>
+
 
 ### ii)Write the image
 
-<br>
-<br>
+
+
+
 
 ### iii)Shape of the Image
 
