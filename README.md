@@ -35,7 +35,7 @@ Anaconda - Python 3.7
     <td width=50%>
 
 
-#### i) Read and display the image
+### i) Read and display the image
 ```Python
     import cv2
     image=cv2.imread('Deepika.jpg',1)
